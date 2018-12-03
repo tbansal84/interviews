@@ -1,0 +1,16 @@
+Design of a microservice which does number block management from a telco perspective.
+
+Microservices
+Numbers microservice
+This microservice will focus mainly on the management of numbers. The telco operator will manage the creation and updates of the numbers data.
+
+Tracking microservice
+Work in progress
+
+ERD:
+Deployment Architecture
+System Architecture
+
+
+Communication protocol/ Type of API exposed
+The HTTP/S protocol is the most popular way to implement synchronous communication between microservices. For this, RESTful APIs will be the type of API to be exposed to consuming applications using the HTTP as a transport layer. The REST architectural style relies on stateless communication, uniform interfaces, and standard methods.
