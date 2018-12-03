@@ -1,4 +1,12 @@
 package services.interview.myrepublic.entities;
-public class AuditEntity implements Versioned{
+
+import java.io.Serializable;
+
+public class AuditEntity implements Versioned, Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 }
